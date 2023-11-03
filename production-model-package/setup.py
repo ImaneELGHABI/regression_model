@@ -7,9 +7,9 @@ from setuptools import find_packages, setup
 # Package meta-data.
 NAME = 'Imane_regression_model'
 DESCRIPTION = "Example regression model package from Train In Data."
-URL = "https://github.com/regression_model"
-EMAIL = "imaneelghabi111@gmail.com"
-AUTHOR = "Imane Elghabi"
+URL = "https://github.com/ImaneELGHABI/regression_model"
+EMAIL = "imane.elghabi@um6p.ma"
+AUTHOR = "ImaneElghabi"
 REQUIRES_PYTHON = ">=3.6.0"
 
 

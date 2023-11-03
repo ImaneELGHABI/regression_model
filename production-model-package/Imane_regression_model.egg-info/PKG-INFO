@@ -2,9 +2,9 @@ Metadata-Version: 2.1
 Name: Imane-regression-model
 Version: 0.0.1
 Summary: Example regression model package from Train In Data.
-Home-page: https://github.com/regression_model
-Author: Imane Elghabi
-Author-email: imaneelghabi111@gmail.com
+Home-page: https://github.com/ImaneELGHABI/regression_model
+Author: ImaneElghabi
+Author-email: imane.elghabi@um6p.ma
 License: BSD-3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Programming Language :: Python

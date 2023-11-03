@@ -1,4 +1,2 @@
---extra-index-url  https://test.pypi.org/simple/ 
-
 fastapi==0.103.2
 Imane_regression_model
