@@ -1,0 +1,24 @@
+Note: added `setuptools==59.8.0` to requirements.txt to fix the deprecation issue with `pandas` command.
+
+3.1) Make a description of the contents of the Yaml file. What types of information does this file
+contain?
+
+The YAML file contains configuration settings for a machine learning model development and deployment process. 
+It includes configurations about data files, target variable, pipeline details, feature selection, data splitting,
+randomization, handling missing values, variable transformations, and variable mappings. 
+These configs are loaded in `config/core.py`.
+It is written in a YAML to be human-readable format and is easy to understand and modify by a data scientists and 
+other languages.
+
+
+
+3.2) change the type of the target attribute (from str to int) in the ModelConfig class
+and then execute the “tox –e train” command. What do you notice? explain how we could
+have received this comment?
+
+We get "validation error for ModelConfig" because pydantic BaseModel is validating the data types of the
+ModelConfig class. Since we change `str` to `int` for the target variable, it is not valid anymore and
+throws "value is not a valid integer" error.
+
+
+https://test.pypi.org/project/Imane-elghabi-Msd-regression-model/
